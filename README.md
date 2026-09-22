@@ -1,40 +1,44 @@
-# VELOOP Rewards & Giveaways — Final Submission v3
+# VELOOP Rewards & Giveaways — Final Submission Build
 
-A React + Vite premium dark rewards/watch-ads frontend demo prepared for final submission.
+## Included fixes
+- 10 daily ads are available; daily target is 10.
+- Each completed ad credits its own listed VE reward (no fixed 15 VE).
+- Closing an ad modal cancels the timer/loading and prevents reward credit.
+- Giveaway winner form checks live top-3 eligibility before saving.
+- Giveaway entry persists in localStorage after refresh.
+- Leaderboard, rank, daily streak, balance and reward claim update from activity.
+- Premium Watch & Earn redesign with responsive cards, hover effects and animation.
+- Premium Giveaway redesign with visual reward cards, status and eligibility UI.
+- 3D VELOOP banner and animated launch splash.
+- Circular 3D Daily Progress and Get Ranking cards.
+- Reference-style 3D top-3 leaderboard podium plus rank table, position and perks.
+- Mobile/tablet/desktop responsive layout.
 
-## Included
-- Animated startup splash / first dashboard entrance
-- Premium dark neon dashboard with animated card borders
-- 10 daily ads and a 10-ad daily target
-- Individual ad duration and individual VE reward values
-- Circular countdown whose progress decreases as time remains
-- Closing an active ad cancels the timer and gives no reward
-- Loading, watching, completed and watched states
-- Dynamic balance, today's earnings, activity, history and streak
-- LocalStorage persistence across refresh
-- Dynamic leaderboard based on completed activity
-- Winner status and reward claiming based on current rank
-- Eligibility-gated winner gift entry saved across refresh
-- Wallet page with balance, transaction history and withdrawal/support information
-- Profile, Rewards, How It Works and Eligibility & Safety pages
-- Responsive desktop/tablet/mobile layouts
-- Real image URLs used for ad/prize visuals
-- Vercel-ready Vite configuration
+## GitHub update
+Replace only these two files in the existing repository:
+- `src/App.jsx`
+- `src/styles.css`
 
-## Run
-```bash
-npm install
-npm run dev
-```
+Keep these existing files unchanged unless your repository is missing them:
+- `src/data.js`
+- `src/main.jsx`
+- `index.html`
+- `package.json`
+- `vite.config.js`
+- `public/`
 
-## Production build
-```bash
-npm run build
-npm run preview
-```
+After committing, Vercel should create a new deployment if the repository is connected.
 
-## Important demo note
-The wallet, VE points, withdrawal and prize-claim flows are frontend demo behavior. Real payments, real cash withdrawals, authentication and prize fulfilment require a secure backend and verified providers.
+## Important
+This is a frontend demo. Real-money payouts, payment processing and physical giveaway fulfilment require a secure backend and verified providers.
 
-## GitHub / Vercel
-Upload the project files including `src`, `index.html`, `package.json`, `vite.config.js` and `README.md`. Do not upload `node_modules` or secrets.
+## Final submission checklist
+- Daily target: 10 ads.
+- Each ad credits its own reward after timer completion.
+- Closing an active ad cancels its timer/reward session.
+- Giveaway eligibility is tied to the current top-3 rank.
+- Activity and giveaway state persist in localStorage.
+- Leaderboard is activity/balance based.
+- Daily streak increments only for consecutive completed target days.
+- Previous daily earnings are preserved in history; only today's counters reset on a new date.
+- Watch Ads, Giveaway, Leaderboard, 3D banner/splash and responsive UI are included.
