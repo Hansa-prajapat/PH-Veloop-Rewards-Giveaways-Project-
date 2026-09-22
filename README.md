@@ -1,44 +1,116 @@
-# VELOOP Rewards & Giveaways — Final Submission Build
+VELOOP – Rewards & Giveaways
 
-## Included fixes
-- 10 daily ads are available; daily target is 10.
-- Each completed ad credits its own listed VE reward (no fixed 15 VE).
-- Closing an ad modal cancels the timer/loading and prevents reward credit.
-- Giveaway winner form checks live top-3 eligibility before saving.
-- Giveaway entry persists in localStorage after refresh.
-- Leaderboard, rank, daily streak, balance and reward claim update from activity.
-- Premium Watch & Earn redesign with responsive cards, hover effects and animation.
-- Premium Giveaway redesign with visual reward cards, status and eligibility UI.
-- 3D VELOOP banner and animated launch splash.
-- Circular 3D Daily Progress and Get Ranking cards.
-- Reference-style 3D top-3 leaderboard podium plus rank table, position and perks.
-- Mobile/tablet/desktop responsive layout.
+A premium and responsive Rewards & Giveaways web application built with React.js. VELOOP provides an interactive earning experience where users can watch advertisements, earn VE rewards, track daily progress, view rankings, participate in giveaways, and manage their rewards.
 
-## GitHub update
-Replace only these two files in the existing repository:
-- `src/App.jsx`
-- `src/styles.css`
+🚀 Live Demo
 
-Keep these existing files unchanged unless your repository is missing them:
-- `src/data.js`
-- `src/main.jsx`
-- `index.html`
-- `package.json`
-- `vite.config.js`
-- `public/`
+https://ph-veloop-rewards-giveaways-project-flax.vercel.app
 
-After committing, Vercel should create a new deployment if the repository is connected.
+📂 GitHub Repository
 
-## Important
-This is a frontend demo. Real-money payouts, payment processing and physical giveaway fulfilment require a secure backend and verified providers.
+https://github.com/Hansa-prajapat/PH-Veloop-Rewards-Giveaways-Project-
 
-## Final submission checklist
-- Daily target: 10 ads.
-- Each ad credits its own reward after timer completion.
-- Closing an active ad cancels its timer/reward session.
-- Giveaway eligibility is tied to the current top-3 rank.
-- Activity and giveaway state persist in localStorage.
-- Leaderboard is activity/balance based.
-- Daily streak increments only for consecutive completed target days.
-- Previous daily earnings are preserved in history; only today's counters reset on a new date.
-- Watch Ads, Giveaway, Leaderboard, 3D banner/splash and responsive UI are included.
+✨ Key Features
+
+- 🎯 Daily Progress and earning target
+- ▶️ Watch & Earn advertisement system
+- 💰 VE reward earning system
+- 🏆 Dynamic Leaderboard and Ranking
+- 🎁 Premium Giveaway section
+- 🥇 Top-3 giveaway eligibility
+- 📦 Winner gift delivery form
+- 🎁 Rewards section
+- 📜 Reward history and activity tracking
+- 👤 Profile section
+- 🛡️ Eligibility & Safety information
+- 💳 Wallet and earning information
+- 🎨 Premium modern UI with animated visual elements
+- ✨ Smooth hover effects and interactive cards
+- 📱 Fully responsive design for mobile, tablet, and desktop
+
+🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap
+- Lucide React
+- React Router
+- Vite
+
+📌 Main Sections
+
+Dashboard
+
+Provides an overview of the user's VE balance, daily progress, earnings, ranking, and important wallet information.
+
+Watch & Earn
+
+Users can view available advertisements, complete the required watch duration, and receive the reward assigned to each advertisement.
+
+Rewards
+
+Displays available rewards and reward-related information.
+
+Leaderboard
+
+Shows user rankings based on earning activity and completed advertisements.
+
+Giveaway
+
+Provides giveaway participation functionality with eligibility information and winner gift delivery details.
+
+Profile
+
+Provides account-related information separately from the main dashboard.
+
+Eligibility & Safety
+
+Explains the eligibility requirements and safety information related to the platform.
+
+🎨 UI & Design
+
+V14 focuses on a premium and professional user interface with:
+
+- Modern dark-themed visual design
+- Premium cards and buttons
+- Animated elements
+- Smooth hover interactions
+- Clear visual hierarchy
+- Responsive layouts
+- Mobile, tablet, and desktop support
+
+⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/Hansa-prajapat/PH-Veloop-Rewards-Giveaways-Project-.git
+
+Open the project folder:
+
+cd PH-Veloop-Rewards-Giveaways-Project-
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Create a production build:
+
+npm run build
+
+📁 Project Purpose
+
+VELOOP is developed as a web development project demonstrating modern React-based UI design, interactive components, reward-based application flows, responsive layouts, and frontend functionality.
+
+👩‍💻 Developer
+
+Hansa Prajapat
+
+📄 License
+
+This project is developed for educational and project submission purposes.
